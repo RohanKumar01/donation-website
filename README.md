@@ -1,6 +1,8 @@
+```bash
 # donation-website
 
 github website link: https://rohankumar01.github.io/donation-website/
+```
 
 How to Commit a PR from your local device using git commands 
 
