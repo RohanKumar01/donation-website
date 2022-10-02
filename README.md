@@ -4,9 +4,9 @@
 
 Website link: https://rohankumar01.github.io/donation-website/
 
-
+```bash
 How to Commit a PR from your local device using git commands 
-
+```
 - Before using git commands you have to download the latest version of git on your device 
 - for that watch the video below , it will help you with installing git to making your first PR
    - https://www.youtube.com/watch?v=F7Zsz7UVePA&t=442s&ab_channel=Codeforza
