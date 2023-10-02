@@ -1,76 +1,8 @@
-html {
-    scroll-behavior: smooth;
-  }
 body{
-    margin:0;
-    padding:0;
-    background-color:#b361ff;
-}
 
-.nav{
-    height:100px;
-    display:flex;
-    background-color:white;
+    background-image: url(img/img.jpg);
+    background-size:cover;
 }
-
-
-.title{
-    font-family:fasthand;
-    font-weight:600;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    font-size:1cm;
-    margin-left:20px;
-}
-.g1{
-    height:250px;
-    margin-top:110px;
-    margin-left:900px;
-}
-
-.h1{
-    position:absolute;
-    height:140px;
-    width:400px;
-    margin-top:355px;
-    margin-left:-300px;
-}
-.rotate {
-    animation: rotation 10s linear infinite;
-  }
-  
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-}
-
-.b1{
-    position: absolute;
-    height:450px;
-    width:700px;
-    margin-top:70px;
-    margin-left:90px;
-    border-radius:10px;
-}
-
-.img_txt{
-    margin-top:165px;
-    margin-left:200px;
-    color:white;
-    font-family:ysabeau sc;
-    
-}
-
-.new_block{
-    height:460px;
-    background-color:white;
-    padding-top:50px;
-}
-
 .carsual{
     display: flex;
     flex-direction: column;
@@ -80,172 +12,17 @@ body{
     margin-top: 200px;
     margin-bottom: 102px;
 
-
-.donate_t{
-    font-size:1cm;
-    font-family:caveat;
-    color:#000000;
-    margin-left:570px;
-    margin-top:0;
-}
-.donate{
-    height:280px;
-    width:440px;
-    background-color:#b361ff;
-    margin-left:440px;
-    margin-top:50px;
-    padding-top:20px;
-    border:0px solid;
-    border-radius:7px;
-}
-
-.inner{
-    height:260px;
-    width:400px;
-    margin-left:20px;
-    background-color:white;
-    border:0px solid;
-    border-radius:7px;
-}
-
-.t1{
-    position: absolute;
-    color:rgb(0, 0, 0);
-    font-size:.65cm;
-    margin-top:10px;
-    margin-left:25px;
-    font-family:chakra petch;
-    
-}
-.t2{
-    position: absolute;
-    color:rgb(0, 0, 0);
-    margin-top:60px;
-    margin-left:125px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:.45cm;
-}
-
-.donate_btn{
-    background-color:#b361ff;
-    border:2px solid black;
-    font-size:.6cm;
-    font-family:Arial, Helvetica, sans-serif;
-    border-radius:50px;
-    height:2.3cm;
-    margin-top:120px;
-    margin-left:160px;
-    cursor:pointer;
-    color:white;
-}
-
-.donate_btn:hover{
-    background-color:white;
-    color:black;
-}
-
-.search_block{
-    height:360px;
-    background-color:#b361ff;
-    padding-top:50px;
-}
-
-.search_t{
-    font-size:1cm;
-    font-family:caveat;
-    color:#ffffff;
-    margin-left:570px;
-    margin-top:0;
-}
-.search_box{
-    height:200px;
-    width:440px;
-    background-color:white;
-    margin-left:430px;
-    padding-top:20px;
-    border:0px solid;
-    border-radius:7px;
-}
-
-.inner_search{
-    background-color:#b361ff;
-    height:180px;
-    width:400px;
-    margin-left:20px;
-    padding-bottom:0px;
-    margin-bottom:-20px;
-    border:0px solid;
-    border-radius:7px;
-}
-
-.inp{
-    margin-top:30px;
-    margin-left:55px;
-    width:270px;
-    border:1px solid black;
-    border-radius:7px;
-    padding-left:15px;
-    height:30px;
-}
-
-.search_btn{
-    position: absolute;
-    margin-top:100px;
-    margin-left:-170px;
-    font-size:.5cm;
-    font-family:Arial, Helvetica, sans-serif;
-    border:1px solid black;
-    border-radius:7px;
-    padding:4px 7px;
-    cursor: pointer;
-}
-
-.search_btn:hover{
-    background-color:grey;
-    color:white;
+}   
+.about{
+    background-color:silver;
+    margin-top: 50px;
 }
 
 
-.footer{
-    background-color:rgb(255, 255, 255);
-    height:170px;
+#button{
+    display: flex;
+     
 }
-.ph1{
-    margin-top:-80px;
-    color:white;
-}
-.ul3{
-    
-    display:flex;
-    list-style:none;
-    gap:45px;
-    text-align:center;
-    justify-content:center;
-}
-.ul3 img{
-    border:2px solid transparent;
-    border-radius:20px;
-    margin-top:30px;
-    width:40px;
-    border:4px solid #b361ff;
-}
-.ul3 img:hover{
-    border:4px solid white;
-}
-.p-1{
-    position:relative;
-    margin-top:40px;
-    color:rgb(0, 0, 0);
-    font-family:ysabeau sc;
-    font-size:.58cm;
-    margin-left:580px;
-}
-.X{
-    height:35px;
-    margin-top:32px;
-    border:4px solid #b361ff;
-    border-radius:15px;
-}
-.X:hover{
-    border:4px solid white;
+.aboutlogo{
+    text-decoration: none;
 }
