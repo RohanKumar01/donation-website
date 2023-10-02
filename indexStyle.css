@@ -71,6 +71,16 @@ body{
     padding-top:50px;
 }
 
+.carsual{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 249px;
+    margin-top: 200px;
+    margin-bottom: 102px;
+
+
 .donate_t{
     font-size:1cm;
     font-family:caveat;

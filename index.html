@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Better World Foundation</title>
+
     <link rel="stylesheet" href="indexStyle.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,6 +13,51 @@
       href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Amatic+SC:wght@700&family=Belanosima&family=Bree+Serif&family=Caveat:wght@700&family=Chakra+Petch:wght@500&family=Courier+Prime&family=Dosis&family=Exo+2:wght@300&family=Fasthand&family=Fredericka+the+Great&family=Handjet:wght@300&family=Kalam&family=Lugrasimo&family=Lumanosimo&family=Montserrat+Alternates&family=Montserrat:wght@300;400&family=Pangolin&family=Rajdhani&family=Raleway:wght@300&family=Red+Hat+Display:wght@500&family=Rubik&family=Sacramento&family=Sarabun&family=Sedgwick+Ave+Display&family=Slabo+27px&family=Tajawal&family=Titillium+Web:wght@300&family=Ysabeau+Infant:wght@200&family=Ysabeau+SC:wght@300&family=Zeyada&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="indexStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+ </style>
+
   </head>
   <body>
     <div class="nav">
@@ -42,6 +88,91 @@
         </div>
       </div>
     </div>
+=======
+
+  
+
+
+      <!-- NavBar -->
+      <nav class="navbar ">
+        
+        <div class="container-fluid">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">About</a>
+            <a href="#feature">Features</a>
+            <a href="#contact">Contact</a>
+            <ul class="list-unstyled text-small aboutlogo " style="text-align: center; color: whitesmoke;">
+              <li><a href="https://github.com/RohanKumar01" class="fa fa-github"></a> Rohan Kumar</li>
+              <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/"></a> Rohan Kumar</li>
+              <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube"></a> Rohan Kumar</li>
+             
+              
+            </ul>
+          </div>
+          
+          <span style="font-size:30px;cursor:pointer ; font-family: cursive; color: whitesmoke;" onclick="openNav()">&#9776; Better World </span>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success"  type="submit" ><atyle="font-family: cursive; >Search</a></button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+
+      
+            
+            <div class="carsual">           
+                <h1 style="color:rgb(240, 127, 22);font-weight: bold; ">Please Donate for a good cause!</h1>
+                <a  class="btn btn-danger" href="donate.html" >Donate Now</a>
+                <p style="color: rgb(11, 105, 11); font-family: cursive; font-size: large;">Your one donation can change many lifes</p>
+      
+            
+            </div>
+
+      <!-- about us -->
+            <div class="about">
+      <div class="container-lg">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="img/logo.PNG" alt="" width="130" height="100">
+          <small class="d-block mb-3 text-muted">© 2021–2022</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5 id="feature">Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Food services</a></li>
+            <li><a class="link-secondary" href="#">Shelter services</a></li>
+            <li><a class="link-secondary" href="#">Medical facilities</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="col-6 col-md">
+          <h5 id="about">About</h5>
+          <ul class="list-unstyled text-small aboutlogo">
+            <li><a href="https://github.com/RohanKumar01" class="fa fa-github"></a> Rohan Kumar</li>
+            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/"></a> Rohan Kumar</li>
+            <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube"></a> Rohan Kumar</li>
+           
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
 
     <div class="footer">
       <ul class="ul3">
