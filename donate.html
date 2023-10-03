@@ -13,14 +13,70 @@
 
   <link rel="stylesheet" href="Donate.css">
 </head>
+<style>
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
 <body>
   <!-- Navbar -->
 
   <nav class="navbar ">
     <div class="container-fluid">
-      <a class="navbar-brand" style="font-family: cursive; font-weight: bold;" href="index.html">Better World</a>
-      <form class="d-flex">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">About</a>
+        <a href="#feature">Features</a>
+        <a href="#contact">Contact</a>
+        <ul class="list-unstyled text-small aboutlogo " style="text-align: center; color: whitesmoke;">
+          <li><a href="https://github.com/RohanKumar01" class="fa fa-github" id="git"></a> Rohan Kumar</li>
+          <li><a class="fa fa-linkedin" id="link" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/"></a> Rohan Kumar</li>
+          <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube" id="you"></a> Rohan Kumar</li>
+         
+          
+        </ul>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer ; font-family: cursive; color: rgb(45, 91, 155);" onclick="openNav()">&#9776; Better World </span>
+  
+  
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">
           <atyle="font-family: cursive;>Search</a>
@@ -62,10 +118,10 @@
         <div class="col-6 col-md">
           <h5>About</h5>
           <ul class="list-unstyled text-small aboutlogo">
-            <li><a href="https://github.com/RohanKumar01" class="fa fa-github"></a> Rohan Kumar</li>
-            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/"></a> Rohan Kumar
+            <li><a href="https://github.com/RohanKumar01" class="fa fa-github" id="gits"></a> Rohan Kumar</li>
+            <li><a class="fa fa-linkedin" id="links" href="https://www.linkedin.com/in/rohan-kumar-a0b898194/"></a> Rohan Kumar
             </li>
-            <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" class="fa fa-youtube"></a> Rohan
+            <li><a href="https://www.youtube.com/channel/UCe1tUq2hpfFqYVvPz77pWag" id="yous" class="fa fa-youtube"></a> Rohan
               Kumar</li>
 
           </ul>
@@ -86,7 +142,15 @@
     crossorigin="anonymous"></script>
 
 
-
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
 
 </body>
 
