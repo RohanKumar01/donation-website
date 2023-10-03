@@ -28,3 +28,39 @@ body {
         width: 300px;
     }
 }
+
+#gits:hover{
+
+    color: rgb(0, 0, 0);
+    }
+    #yous:hover{
+        
+        color: rgb(156, 8, 8);
+    }
+    #links:hover{
+     color: rgb(32, 71, 105);
+        
+    }
+    #gits{
+        color: rgb(72, 70, 70);
+        }
+        #yous{
+            
+            color: rgb(227, 83, 83);
+        }
+        #links{
+         color: rgb(47, 120, 184);
+            
+        }
+        #git:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+        #you:hover{
+            color: rgb(241, 236, 236);
+            background-color: rgb(227, 42, 42);
+        }
+        #link:hover{
+            background-color: rgb(50, 103, 149);
+            color: aliceblue;
+        }
