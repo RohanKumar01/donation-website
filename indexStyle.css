@@ -61,6 +61,7 @@ color: rgb(0, 0, 0);
      color: rgb(99, 168, 229);
         
     }
+
     body {
         font-family: "Lato", sans-serif;
       }
@@ -103,3 +104,4 @@ color: rgb(0, 0, 0);
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
       }
+
