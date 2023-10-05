@@ -53,11 +53,40 @@ color: rgb(0, 0, 0);
 #gits{
     color: rgb(50, 48, 48);
     }
-    #yous{
-        
-        color: rgb(227, 83, 83);
-    }
-    #links{
+#yous{  
+     color: rgb(227, 83, 83);
+}
+#links{
      color: rgb(99, 168, 229);
-        
-    }
+}
+nav{
+    width: 100%;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+.logo{
+    margin-right: auto;
+    margin-left: 15px;
+}
+.logo p{
+    font-size: 25px;
+    padding: 5px;
+    color: blue;
+}
+.navigations{
+    margin-right: 15px;
+    padding: 10px;
+}
+.navigations a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+.navigations a:hover{
+    background-color: yellow;
+    color:black;
+    border-radius: 5px;
+
+}
